@@ -1,3 +1,6 @@
-//
-// Created by bademasta on 12.10.25.
-//
+
+#include <stdio.h>
+
+void main(void) {
+    printf("Hello World\n");
+}
