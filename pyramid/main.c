@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define HEIGHT 15
 #define WIDTH 72
-#define verschiebung -2
-#define versenkung 5
+#define verschiebung 7
+#define versenkung 2
 
 char feld[HEIGHT][WIDTH] = {};
 
