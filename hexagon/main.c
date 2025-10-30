@@ -4,15 +4,10 @@
 #include <stdlib.h>
 #define HEIGHT 27
 #define WIDTH 100
-#define mpx =  55
-#define mpy = 14
+#define mpx 55
+#define mpy 14
 
 char feld[HEIGHT][WIDTH];
-
-
-
-
-
 
 int main() {
 #pragma region feld füllen
