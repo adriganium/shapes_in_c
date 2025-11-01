@@ -2,6 +2,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include  <math.h>
+#include "shapeslib.h"
 #define HEIGHT 27
 #define WIDTH 100
 #define mpx 55
@@ -19,7 +21,7 @@ int main() {
 #pragma endregion feld füllen
 
 #pragma region mittelpunk
-feld[mpx][mpy] = ' ';
+feld[mpy][mpx] = ' ';
 #pragma endregion mittelpunk
 
 #pragma region feld ausgeben
