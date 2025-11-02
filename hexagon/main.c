@@ -6,7 +6,7 @@
 #define HEIGHT 25
 #define WIDTH 100
 #define mpy 13
-#define radius 20
+#define radius 15
 
 
 
