@@ -34,12 +34,12 @@ int main() {
 
 
 
-        feld[mpy][mpx] = '#';
+        feld[mpy][mpx] = '+';
         int px0,py0;
         for (int i = 0; i < 7; i++) {
             int px = mpx + round(cos((i * 60 * M_PI / 180) + rotation) * radius);
             int py = mpy + round(sin((i * 60 * M_PI / 180) + rotation) * radius * 0.4);
-            feld[py][px] = '#';
+            feld[py][px] = '+';
 
             if (i == 0) {
                  px0 = px;
@@ -55,7 +55,7 @@ int main() {
 
         for (int i = 0; i < HEIGHT; i++) {
             for (int j = 0; j < WIDTH; j++) {
-                if (feld[i][j] == '#') {
+                if (feld[i][j] == '+') {
                     printf("\033[38;2;255;165;0m%c\033[0m", feld[i][j]);
                 }else {
                     printf("%c", feld[i][j]);

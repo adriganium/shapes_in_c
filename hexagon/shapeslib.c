@@ -28,7 +28,7 @@ void line_bresenham(int Height, int Width, char feld[Height][Width], int x1, int
     for (int i = 0; i < (step + 1); i++) {
         int drawy = (y1 + i * stepy);
         int drawx = round(x1 + i * stepx);
-        feld[drawy][drawx] = '#';
+        feld[drawy][drawx] = '+';
     }
 
 
